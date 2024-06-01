@@ -1,2 +1,2 @@
-# pith-quickstart
-Pith Quickstart
+# pith-skeleton
+Pith Skeleton App
