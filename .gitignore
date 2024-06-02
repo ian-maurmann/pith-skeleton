@@ -1,0 +1,63 @@
+
+# .gitignore
+# ==========
+
+
+# Ignore OS generated files
+# -------------------------
+.DS_Store
+.DS_Store?
+
+
+# Ignore IDE files
+# ------------------
+.idea/
+.vscode/
+
+
+# Ignore composer.phar and vendor folder
+# --------------------------------------
+composer.phar
+vendor/
+
+
+# Ignore error log
+# ----------------
+php_errors.log
+
+
+# Ignore all log files
+# --------------------
+*.log
+
+
+
+# Ignore symlinks
+# ---------------
+/composer
+/pest
+/phpstan
+/stan
+
+
+# Ignore sensitive info
+# ---------------------
+.env
+.env.php
+env.php
+
+
+# Ignore template cache
+# ---------------------
+/data/latte-cache/*.php
+/data/latte-cache/*.php.lock
+
+/cache/latte-cache/*.php
+/cache/latte-cache/*.php.lock
+
+
+# Ignore install script
+/pith
+
+# Ignore migrations script
+/mig
