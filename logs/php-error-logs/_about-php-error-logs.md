@@ -1,0 +1,1 @@
+The PHP error logs will go here
