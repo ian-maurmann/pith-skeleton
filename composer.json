@@ -1,0 +1,14 @@
+{
+    "require": {
+        "pith/framework": "^0.35.1",
+        "pith/demo-app": "^0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyOrganizationNamespace\\MyApplicationNamespace\\": [
+                "src/",
+                "src/application-pack"
+            ]
+        }
+    }
+}
